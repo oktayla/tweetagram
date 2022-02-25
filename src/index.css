@@ -7,7 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:link, a:visited {
+  color: #ed3b58;
+}
+
+#root {
+  font-family: 'Roboto';
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f1f2f6;
+  color: #57606f;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1588&q=100);
+  background-size: cover;
+  background-attachment: fixed;
 }
