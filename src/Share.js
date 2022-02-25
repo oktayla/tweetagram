@@ -12,7 +12,7 @@ async function shareImage(url) {
     };
 
     if( navigator.canShare && navigator.canShare({files: filesArray}) ) {
-        navigator.share(shareData);
+        await navigator.share(shareData);
     }
 }
 
