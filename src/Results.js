@@ -1,15 +1,11 @@
 import Image from './Image'
 
-const Results = ({loading, images}) => {
-  
+const Results = ({images}) => {
     return(
-        <div className='results'>
-            {loading && <p>Loading...</p>}
-            
+        <div className='results'>            
             {images.map((img, key) => <Image url={img} key={key} />)}
         </div>
     )
-
 }
 
 export default Results

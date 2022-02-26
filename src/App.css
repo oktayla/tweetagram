@@ -85,3 +85,6 @@ header h4 {
     width: 100%;
     border-radius: 5px;
 }
+.error-text.loading {
+    background-color: #ff7f50;
+}

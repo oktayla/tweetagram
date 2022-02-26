@@ -63,7 +63,13 @@ function Generator() {
       </div>
     )}
 
-    {images.length ? <Results loading={loading} images={images} /> : null}
+    {loading && (
+      <div className="error-text loading">
+        <p>Loading..</p>
+      </div>
+    )}
+
+    {images.length ? <Results images={images} /> : null}
     </>
   )
 }
